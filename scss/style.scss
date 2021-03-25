@@ -564,13 +564,11 @@ button:focus {
     }
 }
 @media (max-width: 1366px) {
-    // .intro {
-    //     &__img {
-    //         width: 531px;
-    //         height: auto;
-            
-    //     }
-    // }
+    .intro {
+        &__img {
+            right: -30px;
+        }
+    }
     .about {
         overflow: hidden;
         &__inner {
